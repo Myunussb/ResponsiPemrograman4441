@@ -21,8 +21,8 @@ namespace ResponsiPemrograman4441
             Console.WriteLine("Kenaikkan Gaji Sebesar 10%");
             Console.WriteLine();
 
-            karywn1.NaikkanGaji(10);
-            karywn2.NaikkanGaji(10);
+            karywn1.NaikGaji(10);
+            karywn2.NaikGaji(10);
 
             Console.WriteLine("No   Nik/Nama           Gaji Bulanan");
             Console.WriteLine("------------------------------------");

@@ -22,7 +22,7 @@ namespace ResponsiPemrograman4441
             this.GajiBulanan = gaji;
         }
 
-        public void NaikkanGaji(float persentase)
+        public void NaikGaji(float persentase)
         {
             this.GajiBulanan = persentase / 100 * this.GajiBulanan + this.GajiBulanan;
         }
